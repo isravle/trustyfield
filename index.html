@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrustyField - Next-Gen Phishing Protection</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%);
+        }
+        .glass-effect {
+            backdrop-filter: blur(10px);
+            background: rgba(255, 255, 255, 0.1);
+        }
+        @keyframes shield-pulse {
+            0% { transform: scale(1); opacity: 0.8; }
+            50% { transform: scale(1.05); opacity: 1; }
+            100% { transform: scale(1); opacity: 0.8; }
+        }
+        .shield-animate {
+            animation: shield-pulse 2s infinite;
+        }
+    </style>
+</head>
+<body class="gradient-bg min-h-screen text-white">
+    <div class="container mx-auto px-4 py-12">
+        <!-- Header -->
+        <header class="text-center mb-16">
+            <h1 class="text-6xl font-bold mb-4 animate__animated animate__fadeIn">TrustyField</h1>
+            <p class="text-3xl text-blue-200 animate__animated animate__fadeIn animate__delay-1s">Redefining Phishing Protection</p>
+            <p class="text-xl text-blue-300 mt-4 animate__animated animate__fadeIn animate__delay-2s">Beyond detection. Beyond prevention. Complete protection.</p>
+        </header>
+
+        <!-- Hero Section -->
+        <div class="glass-effect rounded-xl p-8 mb-16 animate__animated animate__fadeInUp">
+            <div class="grid md:grid-cols-2 gap-8 items-center">
+                <div>
+                    <h2 class="text-4xl font-bold mb-6">Stop Phishing Attacks Before They Happen</h2>
+                    <p class="text-xl text-blue-200 mb-6">Traditional solutions warn you about phishing. We stop it completely.</p>
+                    <div class="flex items-center space-x-4 text-lg">
+                        <svg class="w-6 h-6 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                        </svg>
+                        <span>Blocks credential theft in real-time</span>
+                    </div>
+                </div>
+                <div class="text-center shield-animate">
+                    <svg class="w-48 h-48 mx-auto text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+                    </svg>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Features -->
+        <div class="grid md:grid-cols-3 gap-8 mb-16">
+            <div class="glass-effect rounded-lg p-6 animate__animated animate__fadeInLeft">
+                <h3 class="text-xl font-bold mb-4">Complete Phishing Protection</h3>
+                <ul class="space-y-3 text-blue-200">
+                    <li class="flex items-start">
+                        <svg class="w-5 h-5 text-green-400 mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                        </svg>
+                        <span>Stops credential theft attempts instantly</span>
+                    </li>
+                    <li class="flex items-start">
+                        <svg class="w-5 h-5 text-green-400 mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                        </svg>
+                        <span>Protects against zero-day phishing sites</span>
+                    </li>
+                    <li class="flex items-start">
+                        <svg class="w-5 h-5 text-green-400 mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                        </svg>
+                        <span>Works beyond email - anywhere on the web</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="glass-effect rounded-lg p-6 animate__animated animate__fadeInUp">
+                <h3 class="text-xl font-bold mb-4">Advanced Credential Protection</h3>
+                <ul class="space-y-3 text-blue-200">
+                    <li class="flex items-start">
+                        <svg class="w-5 h-5 text-green-400 mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                        </svg>
+                        <span>Prevents unauthorized use of corporate credentials</span>
+                    </li>
+                    <li class="flex items-start">
+                        <svg class="w-5 h-5 text-green-400 mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                        </svg>
+                        <span>Blocks accidental password reuse</span>
+                    </li>
+                    <li class="flex items-start">
+                        <svg class="w-5 h-5 text-green-400 mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                        </svg>
+                        <span>Smart credential leak prevention</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="glass-effect rounded-lg p-6 animate__animated animate__fadeInRight">
+                <h3 class="text-xl font-bold mb-4">Enterprise-Grade DLP</h3>
+                <ul class="space-y-3 text-blue-200">
+                    <li class="flex items-start">
+                        <svg class="w-5 h-5 text-green-400 mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                        </svg>
+                        <span>Protects sensitive corporate data</span>
+                    </li>
+                    <li class="flex items-start">
+                        <svg class="w-5 h-5 text-green-400 mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                        </svg>
+                        <span>Prevents data leakage to unauthorized sites</span>
+                    </li>
+                    <li class="flex items-start">
+                        <svg class="w-5 h-5 text-green-400 mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                        </svg>
+                        <span>Real-time monitoring and protection</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Stats -->
+        <div class="grid md:grid-cols-3 gap-8 mb-16">
+            <div class="glass-effect rounded-lg p-6 text-center">
+                <div class="text-4xl font-bold text-blue-300 mb-2">83%</div>
+                <div class="text-blue-200">of organizations face phishing attacks annually</div>
+            </div>
+            <div class="glass-effect rounded-lg p-6 text-center">
+                <div class="text-4xl font-bold text-blue-300 mb-2">$4.9M</div>
+                <div class="text-blue-200">average cost per phishing attack</div>
+            </div>
+            <div class="glass-effect rounded-lg p-6 text-center">
+                <div class="text-4xl font-bold text-blue-300 mb-2">100%</div>
+                <div class="text-blue-200">protection with TrustyField</div>
+            </div>
+        </div>
+
+        <!-- Call to Action -->
+        <div class="text-center animate__animated animate__fadeInUp">
+            <h3 class="text-2xl mb-8">Ready to Stop Phishing Attacks Forever?</h3>
+            <div class="max-w-md mx-auto">
+                <form class="flex gap-4">
+                    <input type="email" placeholder="Enter your email address" class="flex-1 px-6 py-3 rounded-lg text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    <button class="bg-blue-500 hover:bg-blue-600 px-8 py-3 rounded-lg font-bold transition-colors">
+                        Get Protected
+                    </button>
+                </form>
+                <p class="text-sm text-blue-200 mt-4">Limited early access spots available</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
